@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    position: relative;
+}
+.logo{
+    width: 10rem;
+}
+header a{
+      text-decoration: none;
+      padding: 1rem;
+    
+}
+.search{
+    
+}
+.arama{
+    position: absolute;
+    right: 11.7rem;
+    top: 0.9rem;
+}
+.arama:hover{
+    cursor: pointer;
+}
+.kullaniciprofili{
+    margin-left: 8rem;
+    font-size: 2rem;
+}
