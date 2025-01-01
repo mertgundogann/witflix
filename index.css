@@ -1,5 +1,12 @@
 body{
     font-size: 20px;
+    margin: 5rem;
+    font-family: "PT Sans", serif;
+  font-weight: 1000;
+  font-style: normal;
+  background-color: black
+      
+  
 }
 
 .wrap{
@@ -11,7 +18,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 5rem;
+    
     position: relative;
 }
 .logo{
@@ -20,20 +27,85 @@ header{
 header a{
       text-decoration: none;
       padding: 1rem;
+      color: white;
     
 }
 .search{
+    display: flex;
+    gap: 2rem;
+    margin-right: 5rem;
+    position: relative;
+    padding-bottom: 1rem;
     
 }
 .arama{
+    
     position: absolute;
-    right: 11.7rem;
-    top: 0.9rem;
+    left: 9rem;
+    top: 0.1rem;
+    align-items: center;
+    
 }
 .arama:hover{
     cursor: pointer;
+    position: absolute;
+    
 }
 .kullaniciprofili{
-    margin-left: 8rem;
-    font-size: 2rem;
+   color: white;
+}
+.fa-bell{
+    color: white;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%  ;
+    gap: 2rem;
+    margin-top: 4rem;
+    background-image: url(/src/luxa.org-opacity-changed-inception\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 2rem;
+    color: #fff;
+    
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.movie-info{
+   display: flex;
+    gap: 2rem;
+}
+.maturity-rating{
+    border: 1px solid black;
+}
+.movie-details{
+    
+}
+
+.user-rating{
+    color: orange;
+}
+.btn-lg {
+    display: flex;
+       align-items: center;
+     background-color: red;
+     width: 150px;
+    border-radius: 1rem;
+    padding: 1rem;
+     margin-bottom: 1rem;
+     
+}
+.izle{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1rem;
+    
+}
+.oyuncular{
+    color: yellow
 }
