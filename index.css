@@ -52,10 +52,10 @@ main{
 .arama{
     
     position: absolute;
-    left: 9rem;
+    left: 9.5rem;
     top: 0.1rem;
     align-items: center;
-    
+    color: black;
 }
 .arama:hover{
     cursor: pointer;
