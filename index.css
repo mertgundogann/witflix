@@ -4,16 +4,22 @@ body{
     font-family: "PT Sans", serif;
   font-weight: 1000;
   font-style: normal;
-  background-color: black
+  background-color: black;
+  color: white;
+  
       
   
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .wrap{
     display: flex;
     flex-direction: column;
     max-width: 1000px;
-    align-items: center;
+    
 }
 header{
     display: flex;
@@ -28,6 +34,11 @@ header a{
       text-decoration: none;
       padding: 1rem;
       color: white;
+    
+}
+
+main{
+
     
 }
 .search{
@@ -60,6 +71,8 @@ header a{
 .hero-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
     width: 50%  ;
     gap: 2rem;
     margin-top: 4rem;
@@ -67,7 +80,7 @@ header a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 2rem;
+    padding-left: 4rem;
     color: #fff;
     
 }
@@ -76,16 +89,20 @@ h1{
     font-size: 3rem;
     margin-top: 2rem;
 }
+
+h2{
+    color: white;
+    display: inline-block;
+    float: left;
+}
 .movie-info{
    display: flex;
-    gap: 2rem;
+   gap: 2rem;
 }
 .maturity-rating{
     border: 1px solid black;
 }
-.movie-details{
-    
-}
+
 
 .user-rating{
     color: orange;
@@ -99,6 +116,7 @@ h1{
     padding: 1rem;
      margin-bottom: 1rem;
      
+     
 }
 .izle{
     font-size: 1.5rem;
@@ -108,4 +126,64 @@ h1{
 }
 .oyuncular{
     color: yellow
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.usttaraf a{
+   text-decoration: none;
+   color: white;
+   float: right;
+}
+
+.suggestion-top{
+    margin-bottom: 3rem;
+}
+section a{
+    float: right;
+    margin-right: 1rem;
+        
+}
+
+.suggestion-item{
+ position: relative;
+    
+}
+
+
+.suggestion-item-content h3{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.suggestion-item img{
+    width: 450px;
+    height: 500px;
+}
+.maturity-rating2{
+    border: 0.1rem solid white;
+    padding-left: 5px;
+}
+.sectionizle{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1rem;
+    
+}
+.sectionbtn{
+    position: absolute;
+    left: 8rem;
+}
+
+.suggestion-content{
+    display: flex;
+    gap:30rem;
+}
+
+
+.suggestion-top a{
+   
 }
