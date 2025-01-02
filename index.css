@@ -187,3 +187,42 @@ section a{
 .suggestion-top a{
    
 }
+
+footer{
+    margin-top: 15rem;
+    display: flex;
+    width: 100%;
+    gap: 10rem;
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 3rem;
+    
+}
+footer nav a{
+    color: whitesmoke;
+}
+footer img{
+    width: 25%;
+}
+.apps{
+    margin-left: 120px;
+    text-align: center;
+}
+.sm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 300px;
+    gap: 10px;
+    position: relative
+}
+.sm i{
+    display: inline-block;
+    
+    margin-left: 3rem;
+    
+}
